@@ -1,0 +1,3 @@
+import hangmanwords
+from hangmanwords import words
+print(words)
