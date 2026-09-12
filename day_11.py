@@ -1,3 +1,14 @@
+from random import choice
 """Black jack game 
-A Man Against the Aossibility"""
+A Man Against the Possibility"""
+cards=(2,3,4,5,6,7,8,9,10,10,10,10,11)
+
+
+continue_or_cheak=input("Do You want to play Game . 'y' for continuing or 'n' for exit : ").lower()
+users_cards=()
+if continue_or_cheak=='y':
+    selection=choice(cards)
+    users_cards+=selection
+    print(users_cards)
+
 
